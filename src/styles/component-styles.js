@@ -25,7 +25,10 @@ const useStyles = makeStyles((theme) => ({
         right: 0,
         margin: "0 auto",
         display: "flex",
-        overflow: "scroll"
+        overflow: "scroll",
+        '&::-webkit-scrollbar': {
+            display: 'none'
+        },
     },
     media: {
         height: 0,

@@ -20,7 +20,6 @@ const RestaurantShow = () => {
         context.setOpenDetailModal(!context.openDetailModal);
     };
 
-    console.log(data && data.featured_image)
     return (
         <div>
             <Dialog fullScreen open={context.openDetailModal} onClose={handleDrawer} TransitionComponent={Transition}>
