@@ -1,0 +1,92 @@
+.container {
+  height: 100vh;
+  margin: 0;
+}
+
+.toggle-btn {
+  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  right: 4rem;
+}
+
+.toggle-theme {
+  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.theme-dark button {
+  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  cursor: pointer;
+  padding: 6px;
+  color: black;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  box-shadow: 0px 1px 9px rgb(235, 232, 232);
+}
+
+.theme-light button {
+  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  cursor: pointer;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  box-shadow: 0px 1px 9px rgb(97, 95, 95);
+}
+.loc-dark button {
+  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  left: 6rem;
+  cursor: pointer;
+  padding: 6px;
+  color: black;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  box-shadow: 0px 1px 9px rgb(235, 232, 232);
+}
+
+.loc-light button {
+  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  left: 6rem;
+  cursor: pointer;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  box-shadow: 0px 1px 9px rgb(97, 95, 95);
+}
+
+.toggle-btn button {
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  background-color: crimson;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  box-shadow: 0px 1px 9px crimson;
+}
+
+.makeStyles-restaurants-4::-webkit-scrollbar {
+  display: none;
+}
