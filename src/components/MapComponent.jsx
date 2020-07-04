@@ -8,7 +8,8 @@ import MapContext from '../context/MapContext'
 import InfoWindow from './InfoWindow'
 import axios from '../axios-config'
 const { InfoBox } = require("react-google-maps/lib/components/addons/InfoBox");
-/* global google*/
+
+/*global google*/
 
 const MapComponent = compose(
     withProps({

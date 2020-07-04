@@ -81,7 +81,7 @@ const RestaurantShow = () => {
                                         {data && data.location.address}
                                     </Typography>
                                 </CardContent>
-                                <CardActions disableSpacing className={classes.bt}>
+                                <CardActions className={classes.bt}>
                                     <ButtonGroup color="secondary" aria-label="buttons">
                                         <a
                                             href={`https://maps.google.com/?saddr=${context.currentLocation.lat},${context.currentLocation.lng}&daddr=${data && data.location.latitude},${data && data.location.longitude}`}
