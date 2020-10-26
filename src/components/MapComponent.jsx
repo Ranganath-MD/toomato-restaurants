@@ -10,10 +10,9 @@ import axios from '../axios-config'
 const { InfoBox } = require("react-google-maps/lib/components/addons/InfoBox");
 
 /*global google*/
-
 const MapComponent = compose(
     withProps({
-        googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAP_KEY}&v=3.exp&libraries=geometry,drawing`,
+        googleMapURL: `https://maps.googleapis.com/maps/api/js?key=AIzaSyBTedd4y_5KDmv1ThgKOBeJLL6_-fZTN7s&v=3.exp&libraries=geometry,drawing`,
         loadingElement: <div style={{ height: `100%` }} />,
         containerElement: <div style={{ height: `100vh` }} />,
         mapElement: <div style={{ height: `100%` }} />,

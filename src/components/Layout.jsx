@@ -13,6 +13,7 @@ const Layout = () => {
     const context = useContext(MapContext)
 
     const getCurrentLocation = () => {
+        
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(position => {
                 const current_pos = {
